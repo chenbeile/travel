@@ -12,8 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'https://github.com/chenbeile/travel/tree/master/dist',
-        changeOrigin: true,
+        target: 'http://localhost:8080',
         pathRewrite: {
           '^/api': '/static/mock'
         }
@@ -58,7 +57,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',
+    assetsPublicPath: '/',
 
     /**
      * Source Maps
