@@ -13,10 +13,8 @@ module.exports = {
     proxyTable: {
       '/api': {
         target: 'https://chenbeile.github.io',
-        secure: false,
-        changeOrigin: true,
         pathRewrite: {
-          '^/api': '/travel/dist/static/mock'
+          '^/api': ''
         }
       }
     },
