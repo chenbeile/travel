@@ -12,7 +12,9 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'https://github.com/chenbeile/travel/blob/master/dist/static/mock/index.json',
+        secure: false,
+        changeOrigin: true,
         pathRewrite: {
           '^/api': '/static/mock'
         }
