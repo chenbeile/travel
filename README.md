@@ -1,5 +1,6 @@
 ## 前言
 慕课网开源项目实战，本着学习的态度去了解前端，部分问题收集在我的blog里，欢迎浏览
+https://github.com/chenbeile/blog2017
 ### 预览页面
 https://chenbeile.github.io/travel/dist/#/
 ### 技术栈
