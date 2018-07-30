@@ -1,6 +1,7 @@
 ## 前言
 慕课网开源项目实战，本着学习的态度去了解前端，部分问题收集在我的blog里，欢迎浏览
-
+### 预览页面
+https://chenbeile.github.io/travel/dist/#/
 ### 技术栈
 vue@2.4 + webpack + node + vue-router + vue-cli + stylus + iconfont + fastclick + vue-awesome-swiper ++ axios + better-scroll + vuex
 
