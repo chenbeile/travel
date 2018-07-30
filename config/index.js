@@ -16,7 +16,7 @@ module.exports = {
         secure: false,
         changeOrigin: true,
         pathRewrite: {
-          '^/api': '/dist/static/mock'
+          '^/api': '/travel/dist/static/mock'
         }
       }
     },
